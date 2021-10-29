@@ -1,0 +1,116 @@
+  a{
+    width: 100%;
+  }
+  p{
+    color:rgb(0, 153, 255);
+    margin:5px auto;
+  }
+  .container{
+    width: 90%;
+    margin: auto ;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+  .column-2 {
+    width: 40%;
+    padding:20px;
+    margin-bottom: 0;
+  }
+  input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition:0.3s;
+  }
+  img{
+    max-width:600px;
+  }
+  .dropdown{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+/* button */
+  .button {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .button1 {
+    background-color: #333333;
+    padding:10px 20px;
+    color: rgb(255, 255, 255); 
+  }
+  .button2 {
+    background-color: rgb(0, 153, 255);
+    padding:10px 20px;
+    color: rgb(255, 255, 255); 
+  }
+  .buttonEdit {
+    background-color: rgb(255, 166, 0);
+    padding:10px 20px;
+    color: rgb(255, 255, 255); 
+  }
+  .buttonHapus {
+    background-color: rgb(255, 0, 0);
+    padding:10px 20px;
+    color: rgb(255, 255, 255); 
+  }
+
+  
+/* tabel */
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+  }
+  .colT-1{
+    max-width: 200px;
+  }
+  .colT-3{
+    max-width: 400px;
+  }
+
+  .hijau{
+    background-color:green;
+  }
+  .kuning{
+    background-color:yellow;
+  }
+  .merah{
+    background-color:red;
+  }
